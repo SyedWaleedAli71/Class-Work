@@ -244,4 +244,13 @@
 // console.log(cd)
 // 
 
-
+// 
+// let pakisTan = `East Pakistan was the eastern province of Pakistan between  and 1971`;
+// alert(pakisTan);
+// for (var i = 0; i<pakisTan.length; i++){
+//     if (pakisTan.slice(i , i + 4) === "1971"){
+//         pakisTan = pakisTan.slice(0,i) + "1956" + pakisTan.slice(i+4)
+//         alert(pakisTan)
+//         break
+//     }
+// }
