@@ -205,3 +205,43 @@
 // Q.3
 // for (var i = 0; i <= 4; i++);
 // console.log(i)
+// 
+// 
+// Sat, Dec 06
+// 
+// let fullName = `jawan Pakistan`;
+// let last = fullName.slice(0,7)
+// let num = fullName.charAt(6);
+// let lastIndex = fullName.lastIndexOf(-8)
+
+// console.log(lastIndex);
+
+// 
+// let text = `if you have control you're not moving fast enough`;
+// alert(text);
+// for (var i = 0; i<text.length; i++){
+//     if (text.slice(i,i+7) === "control"){
+//         text=text.slice(0,i)+"under"+ text.slice(4+7)
+//         alert(text)
+//         break
+//     }
+// }
+ 
+// 
+// let textNum = `if you have control you're not moving fast enough`;
+// alert(textNum);
+// for (var i = 0; i<textNum.length; i++){
+//     if (textNum.slice(i,i+7) === "control"){
+//         textNum=textNum.slice(0,i)+"under"+ textNum.slice(4+7)
+//         alert(textNum)
+//         break
+//     }
+// }
+
+// 
+// var cd = 99;
+// cd=cd +1;
+// console.log(cd)
+// 
+
+
