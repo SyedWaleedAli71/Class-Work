@@ -254,3 +254,62 @@
 //         break
 //     }
 // }
+
+// 
+// Saturday dec 13   ******
+//        26
+// Rounding numbers
+
+// let x = 12.88 ;
+// let y = Math.round(x)
+
+// console.log(y);
+// 
+// let a = 128.74435 ;
+// let b = Math.round(a)
+
+// console.log(b)
+// 
+
+// let Q = 10.9999 ;
+// let z = Math.round(Q)
+
+// console.log(z)
+// 
+
+// let rm = Math.random()
+
+// let e = (rm*6000)+1
+// let d = Math.floor()
+
+// console.log(e);
+// 
+
+// let userName = prompt("Enter your Name..");
+// let userEmail = prompt("Enter your Email..");
+// let pass = prompt("Enter your Password..")
+
+// let rm = Math.random()
+// let e = (rm*6000)+1
+// let d = Math.floor(e)
+
+// document.writeln(userName+ "<br>" + userEmail  + "<br>"+ pass  + "<br>"+ d);
+
+// 
+
+// let e = "33";
+// let s = parseInt(e)+22
+// let d = parseFloat("18.6555");
+// console.log(d);
+
+// Converting strings to numbers, numbers to strings
+// 
+let numBer = "12345"
+let conVert = Number(numBer);
+console.log(typeof conVert, conVert);
+// 
+
+let numBer_2 = 12345;
+let conVert_2 = numBer_2.toString();
+
+console.log(typeof conVert_2, conVert_2);
