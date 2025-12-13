@@ -378,6 +378,21 @@
 // let f = new Date();
 // f.setTime(13)
 // console.log(f);
+// // 
+// let x = Math.random();
+// let d = (x*3000)+3;
+// let g = Math.floor(d)
+
+// console.log(g);
 // 
 
+// let userName = prompt("Enter your Name..");
+// let userEmail = prompt("Enter your Email..");
+// let PassWord = prompt("Enter your password..");
 
+// let x = Math.random();
+// let d = (x*3000)+3;
+// let g = Math.floor(d);
+
+// console.log(`User Name  : ${userName}User Email : ${userEmail}
+// Password   : ${PassWord}Random No (x) : ${x}Calculated (d): ${d}Final ID (g)  : ${g}`);
