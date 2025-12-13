@@ -304,12 +304,49 @@
 
 // Converting strings to numbers, numbers to strings
 // 
-let numBer = "12345"
-let conVert = Number(numBer);
-console.log(typeof conVert, conVert);
+// let numBer = "12345"
+// let conVert = Number(numBer);
+// console.log(typeof conVert, conVert);
+// // 
+
+// let numBer_2 = 12345;
+// let conVert_2 = numBer_2.toString();
+
+// console.log(typeof conVert_2, conVert_2);
+// 
+// 30
+// Controlling the length of decimals
+// ......
+
+
+
+// 31
+// Getting the current date and time
+// 
+// let date = new Date()
+// console.log(date);
 // 
 
-let numBer_2 = 12345;
-let conVert_2 = numBer_2.toString();
+// let month = new Date().getMonth() + 1;
+// console.log(month);
+// 
 
-console.log(typeof conVert_2, conVert_2);
+// let year = new Date().getFullYear() + 1;
+// console.log(year);
+// 
+// let day = new Date().getDay();
+// console.log(day);
+
+// let hours = new Date().getHours();
+// console.log(hours);
+
+// let second = new Date().getSeconds();
+// console.log(second);
+// 
+// let milliSecond = new Date().getMilliseconds();
+// console.log(milliSecond);
+// 
+
+// let hours = new Date().getTime();
+// console.log(hours);
+
