@@ -350,3 +350,34 @@
 // let hours = new Date().getTime();
 // console.log(hours);
 
+// 
+// let now = new Date()
+// console.log("MilliSeconds since 1 jan 1970",now.getTime());
+
+//         32   ****
+// Extracting parts of the date and time
+//         33 
+// Specifying a date and time
+//         34
+// Changing elements of a date and time
+// 
+
+// let days = ["Sunday","Monday","Tuesdaya","Wednesday","Thursday","Friday","Saturday"];
+// let today = new Date().getDay();
+// console.log(days[today]);
+// 
+
+// let d = new Date();
+// d.getDay()
+// console.log(d);
+// 
+// let e = new Date();
+// e.setMonth(11)
+// console.log(e);
+// // 
+// let f = new Date();
+// f.setTime(13)
+// console.log(f);
+// 
+
+
