@@ -396,3 +396,129 @@
 
 // console.log(`User Name  : ${userName}User Email : ${userEmail}
 // Password   : ${PassWord}Random No (x) : ${x}Calculated (d): ${d}Final ID (g)  : ${g}`);
+
+// 
+// 20 DEC 2025
+
+// let setTime = new Date()
+// setTime.setTime(22)
+// console.log(setTime);
+
+// 
+
+// let getTime = new Date()
+// getTime.getTime()
+// console.log(getTime);
+
+// 
+//      FUNCTION       *******
+// Q.1
+// function zee(){
+// alert("Hello World")
+// }   
+// zee()
+
+// Q.2
+
+// let a = 2;
+// let b = 2;
+
+// function see(a,b){
+//     console.log(a*b);
+    
+// }
+// see(1,4);
+// see(3,3);
+
+
+// for (let i = 1; i <= 10; i++) {
+    //   console.log("Student Roll Number: " + i);
+    // }
+
+    // let userInput = +prompt("Enter number") 
+
+
+// function see(table){
+//     for (let i = 1; i <= 10; i++){
+// console.log(table + " X " + i + " = " + (table * i));
+
+//     }
+// }
+// see(3);
+
+// 
+
+// function data(a,b){
+// console.log(a,b);
+// }
+// data("Apple", 88)
+
+
+// Q.2
+// function quiz(a){
+//     let s = prompt(a)
+// console.log(s);
+// }
+
+// function pass(x,y){
+//     let n = 5;
+//     return x + y - n;
+// }
+
+// let x = pass(1,7);
+// x = x * 4;
+// console.log(x);
+
+
+//Q:1) Write a JavaScript function that uses Date 
+// and Time methods to display the current date, time, 
+// and a greeting based on the current hour
+// ANS___
+// Good Evening
+// Date: 20/12/2025
+// Time: 07:45 PM 
+// function newDat(a){
+//     let s = prompt("Enter prompt")
+//     let getTime = new Date()
+// getTime.getTime()
+// console.log(s);
+// console.log(getTime);
+// }
+// newDat()
+
+// 
+// GPT
+// function newDat(){
+//     let s = prompt("Enter prompt");
+//     let getTime = new Date();
+
+//     console.log("User Input: " + s);
+//     console.log("Current Date/Time: " + getTime);
+//     console.log("Milliseconds since Jan 1, 1970: " + getTime.getTime());
+// }
+
+// newDat();
+
+// 
+// function newTime(a){
+//     let s = prompt("Enter prompt Hours")
+//     let getTime = new Date()
+// getTime.getHours()
+// console.log(s);
+// console.log(getTime);
+// }
+// newTime()
+
+// Q:2)  Write a JavaScript function that uses Date 
+// and Time methods to determine whether today is a 
+// working day or weekend and display the current daily 
+// status based on time 
+// Ans___
+// Status Report:
+// Day: Monday
+// Date: 20/12/2025
+// Time: 07:30
+// Day Type: Working Day
+// Current Mode: Morning Routine Time
+
+// 
