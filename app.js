@@ -647,3 +647,75 @@
 // 48 Events: fields
 // 49 Reading field values
 // 50 Setting field values
+
+// Task..
+// let questions = [
+//   {
+//     q: "HTML stands for?",
+//     a: "Hyper Text Markup Language",
+//     b: "High Text Machine Language",
+//     c: "Hyperlinks Text Mark Language",
+//     correct: "a"
+//   },
+//   {
+//     q: "JavaScript is a?",
+//     a: "Programming Language",
+//     b: "Markup Language",
+//     c: "Styling Language",
+//     correct: "a"
+//   },
+//   {
+//     q: "Which loop runs at least once?",
+//     a: "for",
+//     b: "while",
+//     c: "do while",
+//     correct: "c"
+//   },
+//   {
+//     q: "Which keyword is used for function?",
+//     a: "func",
+//     b: "function",
+//     c: "method",
+//     correct: "b"
+//   },
+//   {
+//     q: "Which symbol is used for comments?",
+//     a: "//",
+//     b: "##",
+//     c: "**",
+//     correct: "a"
+//   }
+// ];
+
+// let index = 0;
+// let score = 0;
+
+// function startQuiz() {
+//   document.getElementById("startBtn").style.display = "none";
+//   document.getElementById("quiz").style.display = "block";
+//   showQuestion();
+// }
+
+// function showQuestion() {
+//   let q = questions[index];
+//   document.getElementById("question").innerHTML = q.q;
+//   document.getElementById("optA").innerHTML = q.a;
+//   document.getElementById("optB").innerHTML = q.b;
+//   document.getElementById("optC").innerHTML = q.c;
+// }
+
+// function checkAnswer(ans) {
+//   if (ans === questions[index].correct) {
+//     score++;
+//   }
+
+//   index++;
+
+//   if (index < questions.length) {
+//     showQuestion();
+//   } else {
+//     document.getElementById("quiz").innerHTML =
+//       "<h2>Quiz Finished</h2>" +
+//       "<p>Your Score: " + score + " / " + questions.length + "</p>";
+//   }
+// }
