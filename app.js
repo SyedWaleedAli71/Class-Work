@@ -521,4 +521,129 @@
 // Day Type: Working Day
 // Current Mode: Morning Routine Time
 
+// 27 DEC 2025
+// Chapter no:39 Switch Statements:
+
+// let p = prompt("Enter your Age..");
+// switch(p){
+//     case "10":
+//     alert("School Age");
+//     case "22":
+//         alert("Uni Age");
+//         case "25":
+//             alert("Job Age")
+// }
+
+// Task..
+// let p = +prompt("Enter Your Number..")
+// switch (p) {
+//   case 0:
+//     day = "Start of the Week..";
+//     alert(day)
+//     break;
+//   case 1:
+//     day = "Start of the Week..";
+//     alert(day)
+//     break;
+//   case 2:
+//      day = "Start of the Week..";
+//      alert(day)
+//     break;
+//   case 3:
+//     day = "Start of the Week..";
+//     alert(day)
+//     break;
+//   case 4:
+//     day = "Mid of the Week..";
+//     alert(day)
+//     break;
+//   case 5:
+//     day = "Mid of the Week..";
+//     alert(day)
+//     break;
+//   case 6:
+//     day = "Mid of the Week..";
+//     alert(day)
+//       break;
+//   case 7:
+//     day = "Weekend..";
+//     alert(day)
+// }
+
+// Task..
+//  function code(){
+//     let cal = document.getElementById("zip").value;
+//     let ct  ;
+//     switch(cal){
+//         case "22220":
+//         ct = "Lahore";
+//         break;
+//         case "11110":
+//         ct = "Faisalabad";
+//         break;
+//     }
+    
+// document.getElementById("city").value =ct;
+
+//  }
+// code();
+
 // 
+// Task..
+//  function code(){
+//     let cal = document.getElementById("name").value;
+//               document.getElementById("quantity").value =ct;
+//     let price = 0;
+//     let ct  ;
+
+//     switch(cal){
+//         case "Iphone":
+//         ct = "10 Piece available";
+//         break;
+//         case "Tecno":
+//         ct = "15 Piece available";
+//         break;
+//     }
+    
+
+//  }
+// code();
+
+// G00P00T00
+// function calculate() {
+//   let mobile = document.getElementById("name").value;
+//   let quantity = document.getElementById("qty").value;
+//   let price = 0;
+
+//   switch (mobile) {
+//     case "Iphone":
+//       price = 200000;
+//       break;
+
+//     case "Tecno":
+//       price = 40000;
+//       break;
+
+//     default:
+//       document.getElementById("result").innerHTML = "Mobile not available";
+//       return;
+//   }
+
+//   let total = price * quantity;
+
+//   document.getElementById("result").innerHTML =
+//     "Mobile: " + mobile + "<br>Price per piece: " + price + 
+//     "<br>Quantity: " + quantity + "<br>Total Price: " + total;
+// }
+
+// 39. switch statements: how to start them
+// 40. switch statements: how to complete them
+// 41. while loops
+// 42. do...while loops
+// 43. Placing scripts
+// 44. Commenting
+// 45. Events: link..
+// 47. Events: button
+// 48 Events: fields
+// 49 Reading field values
+// 50 Setting field values
