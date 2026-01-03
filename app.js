@@ -719,3 +719,24 @@
 //       "<p>Your Score: " + score + " / " + questions.length + "</p>";
 //   }
 // }
+
+// 3   JAN    2025
+// Chapter 51. Reading and setting paragraph text
+ 
+
+// var x = +prompt("Enter Your Name ");
+// if (x === 33){
+//     console.log("welcome");
+    
+// };
+
+// 
+// function userInput(){
+//     let user = prompt("Enter Your Name ");
+// alert(user);
+// }
+// userInput();
+
+// 
+//***** Calculator **** //
+
