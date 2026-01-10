@@ -740,3 +740,54 @@
 // 
 //***** Calculator **** //
 
+
+// *****10 jan 2026***** //
+
+// 1) Check whether a given string is a palindrome or not.
+
+// 2) Find the second largest number in an array.
+
+// 3) Count how many times each character appears in a string.
+
+
+// 4)  Merge two arrays without repeating duplicate values.
+
+// 5)  Find the longest word in a sentence.
+
+// 
+// Q.1
+// function isPalindrome(str){
+// let reversed = str.split('').reverse().join('');
+
+// if(str === reversed){
+//     return 'Palindrome';
+
+// }else{
+//     return 'is Not Palindrome'
+// }
+
+// }
+
+// console.log(isPalindrome('madam'));
+// console.log(isPalindrome('Hello'));
+
+// 52
+// Manipulating images and text
+// 53
+// Swapping images
+// 54
+// Swapping images and setting classes
+// 55
+// Setting styles
+// 56
+// Target all elements by tag name
+// 57
+// Target some elements by tag name
+// 58
+// The DOM
+// 59
+// The DOM:
+// Parents and children
+// 60
+// The DOM:
+// Finding children
