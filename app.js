@@ -790,7 +790,6 @@
 // Parents and children
 // 60
 // The DOM:
-<<<<<<< HEAD
 // Finding children
 // 61. The DOM: Junk artifacts and nodeType
 // 62. The DOM: More ways to target elements
@@ -842,6 +841,79 @@
 // console.log(obj);
 
 //  
-=======
-// Finding children
->>>>>>> dd83fd1352bef78be261d826a7661abefbe90f25
+
+// 
+alert("Welcome to the Quiz! Answer carefully.");
+
+// Quiz questions array
+const quiz = [
+    {
+        question: "Q1. ) What does HTML stand for?",
+        options: ["a) Hyper Text Markup Language", "b) High Text Machine Language", "c) Hyperlink and Text Markup Language", "d) None of the above"],
+        answer: "a"
+    },
+    {
+        question: "Q2. )Which tag is used for a paragraph in HTML?",
+        options: ["a) <p>", "b) <h1>", "c) <div>", "d) <br>"],
+        answer: "a"
+    },
+    {
+        question: "Q3. )Which symbol is used for comments in JavaScript?",
+        options: ["a) /* comment */", "b) // comment", "c) Both a & b", "d) # comment"],
+        answer: "c"
+    },
+    {
+        question: "Q4. )Which CSS property is used to change text color?",
+        options: ["a) text-color", "b) color", "c) font-color", "d) background-color"],
+        answer: "b"
+    },
+    {
+        question: "Q5. )Inside which HTML element do we put JavaScript code?",
+        options: ["a) <javascript>", "b) <js>", "c) <script>", "d) <code>"],
+        answer: "c"
+    },
+    {
+        question: "Q6. )Which built-in method removes the last element from an array in JavaScript?",
+        options: ["a) pop()", "b) push()", "c) shift()", "d) unshift()"],
+        answer: "a"
+    },
+    {
+        question: "Q7. )Which operator is used for assignment in JavaScript?",
+        options: ["a) =", "b) ==", "c) ===", "d) =>"],
+        answer: "a"
+    },
+    {
+        question: "Q8. )DOM stands for?",
+        options: ["a) Document Object Model", "b) Data Object Model", "c) Document Oriented Method", "d) Direct Object Model"],
+        answer: "a"
+    },
+    {
+        question: "Q9. )Which HTML attribute is used to define inline styles?",
+        options: ["a) style", "b) class", "c) id", "d) font"],
+        answer: "a"
+    },
+    {
+        question: "Q10. )Which JavaScript method is used to print in the console?",
+        options: ["a) print()", "b) console.log()", "c) document.write()", "d) alert()"],
+        answer: "b"
+    }
+];
+
+let score = 0;
+
+for(let i=0; i<quiz.length; i++){
+    let q = quiz[i];
+    let userAnswer = prompt(q.question + "\n" + q.options.join("\n")).toLowerCase();
+    
+    if(userAnswer === q.answer){
+        alert("Correct!");
+        score++;
+    } else {
+        alert("Wrong! Correct answer is " + q.answer);
+    }
+}
+
+alert("Quiz finished! Your score is: " + score + " out of " + quiz.length);
+
+// 
+
