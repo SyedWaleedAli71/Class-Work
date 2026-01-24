@@ -790,6 +790,7 @@
 // Parents and children
 // 60
 // The DOM:
+<<<<<<< HEAD
 // Finding children
 // 61. The DOM: Junk artifacts and nodeType
 // 62. The DOM: More ways to target elements
@@ -841,3 +842,6 @@
 // console.log(obj);
 
 //  
+=======
+// Finding children
+>>>>>>> dd83fd1352bef78be261d826a7661abefbe90f25
