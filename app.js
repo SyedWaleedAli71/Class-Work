@@ -799,6 +799,13 @@
 // 66. The DOM: Attribute names and values
 // 67. The DOM: Adding nodes
 // 68. The DOM: Inserting nodes
+// 69. Objects
+// 70. Objects: Properties
+// 71. Objects: Methods
+// 72. Objects: Constructors
+// 73. Objects: Constructors for methods
+// 74. Objects: Prototypes
+// 75. Objects: Checking for properties and methods
 
 // 
 // *****10 jan 2026***** //
@@ -843,77 +850,279 @@
 //  
 
 // 
-alert("Welcome to the Quiz! Answer carefully.");
+// alert("Welcome to the Quiz! Answer carefully.");
 
-// Quiz questions array
-const quiz = [
-    {
-        question: "Q1. ) What does HTML stand for?",
-        options: ["a) Hyper Text Markup Language", "b) High Text Machine Language", "c) Hyperlink and Text Markup Language", "d) None of the above"],
-        answer: "a"
-    },
-    {
-        question: "Q2. )Which tag is used for a paragraph in HTML?",
-        options: ["a) <p>", "b) <h1>", "c) <div>", "d) <br>"],
-        answer: "a"
-    },
-    {
-        question: "Q3. )Which symbol is used for comments in JavaScript?",
-        options: ["a) /* comment */", "b) // comment", "c) Both a & b", "d) # comment"],
-        answer: "c"
-    },
-    {
-        question: "Q4. )Which CSS property is used to change text color?",
-        options: ["a) text-color", "b) color", "c) font-color", "d) background-color"],
-        answer: "b"
-    },
-    {
-        question: "Q5. )Inside which HTML element do we put JavaScript code?",
-        options: ["a) <javascript>", "b) <js>", "c) <script>", "d) <code>"],
-        answer: "c"
-    },
-    {
-        question: "Q6. )Which built-in method removes the last element from an array in JavaScript?",
-        options: ["a) pop()", "b) push()", "c) shift()", "d) unshift()"],
-        answer: "a"
-    },
-    {
-        question: "Q7. )Which operator is used for assignment in JavaScript?",
-        options: ["a) =", "b) ==", "c) ===", "d) =>"],
-        answer: "a"
-    },
-    {
-        question: "Q8. )DOM stands for?",
-        options: ["a) Document Object Model", "b) Data Object Model", "c) Document Oriented Method", "d) Direct Object Model"],
-        answer: "a"
-    },
-    {
-        question: "Q9. )Which HTML attribute is used to define inline styles?",
-        options: ["a) style", "b) class", "c) id", "d) font"],
-        answer: "a"
-    },
-    {
-        question: "Q10. )Which JavaScript method is used to print in the console?",
-        options: ["a) print()", "b) console.log()", "c) document.write()", "d) alert()"],
-        answer: "b"
-    }
-];
+// const quiz = [
+//     {
+//         question: "Q1. ) What does HTML stand for?",
+//         options: ["a) Hyper Text Markup Language", "b) High Text Machine Language", "c) Hyperlink and Text Markup Language", "d) None of the above"],
+//         answer: "a"
+//     },
+//     {
+//         question: "Q2. )Which tag is used for a paragraph in HTML?",
+//         options: ["a) <p>", "b) <h1>", "c) <div>", "d) <br>"],
+//         answer: "a"
+//     },
+//     {
+//         question: "Q3. )Which symbol is used for comments in JavaScript?",
+//         options: ["a) /* comment */", "b) // comment", "c) Both a & b", "d) # comment"],
+//         answer: "c"
+//     },
+//     {
+//         question: "Q4. )Which CSS property is used to change text color?",
+//         options: ["a) text-color", "b) color", "c) font-color", "d) background-color"],
+//         answer: "b"
+//     },
+//     {
+//         question: "Q5. )Inside which HTML element do we put JavaScript code?",
+//         options: ["a) <javascript>", "b) <js>", "c) <script>", "d) <code>"],
+//         answer: "c"
+//     },
+//     {
+//         question: "Q6. )Which built-in method removes the last element from an array in JavaScript?",
+//         options: ["a) pop()", "b) push()", "c) shift()", "d) unshift()"],
+//         answer: "a"
+//     },
+//     {
+//         question: "Q7. )Which operator is used for assignment in JavaScript?",
+//         options: ["a) =", "b) ==", "c) ===", "d) =>"],
+//         answer: "a"
+//     },
+//     {
+//         question: "Q8. )DOM stands for?",
+//         options: ["a) Document Object Model", "b) Data Object Model", "c) Document Oriented Method", "d) Direct Object Model"],
+//         answer: "a"
+//     },
+//     {
+//         question: "Q9. )Which HTML attribute is used to define inline styles?",
+//         options: ["a) style", "b) class", "c) id", "d) font"],
+//         answer: "a"
+//     },
+//     {
+//         question: "Q10. )Which JavaScript method is used to print in the console?",
+//         options: ["a) print()", "b) console.log()", "c) document.write()", "d) alert()"],
+//         answer: "b"
+//     }
+// ];
 
-let score = 0;
+// let score = 0;
 
-for(let i=0; i<quiz.length; i++){
-    let q = quiz[i];
-    let userAnswer = prompt(q.question + "\n" + q.options.join("\n")).toLowerCase();
+// for(let i=0; i<quiz.length; i++){
+//     let q = quiz[i];
+//     let userAnswer = prompt(q.question + "\n" + q.options.join("\n")).toLowerCase();
     
-    if(userAnswer === q.answer){
-        alert("Correct!");
-        score++;
-    } else {
-        alert("Wrong! Correct answer is " + q.answer);
-    }
-}
+//     if(userAnswer === q.answer){
+//         alert("Correct!");
+//         score++;
+//     } else {
+//         alert("Wrong! Correct answer is " + q.answer);
+//     }
+// }
 
-alert("Quiz finished! Your score is: " + score + " out of " + quiz.length);
+// alert("Quiz finished! Your score is: " + score + " out of " + quiz.length);
+
+// 31 jan 2026 ********
+
+// 76. Browser control: Getting and setting the URL
+// 77. Browser control: Getting and setting the URL another way
+// 78. Browser control: Forward and reverse
+// 79. Browser control: Filling the window with content
+// 80. Browser control: Controlling the window's size and location
+// 81. Browser control: Testing for popup blockers
+// 82. Form validation: text fields
 
 // 
+// 
+// Form
+// function showSignup() {
+//   document.getElementById("loginBox").classList.add("hidden");
+//   document.getElementById("signupBox").classList.remove("hidden");
+//   document.getElementById("formTitle").innerText = "Sign Up";
+// }
+
+// function showLogin() {
+//   document.getElementById("signupBox").classList.add("hidden");
+//   document.getElementById("loginBox").classList.remove("hidden");
+//   document.getElementById("formTitle").innerText = "Login";
+// }
+
+// function signup() {
+//   let name = document.getElementById("signupName").value;
+//   let email = document.getElementById("signupEmail").value;
+//   let password = document.getElementById("signupPassword").value;
+
+//   if (name === "" || email === "" || password === "") {
+//     alert("All fields are required");
+//     return;
+//   }
+
+//   let user = {
+//     name,
+//     email,
+//     password
+//   };
+
+//   localStorage.setItem("userData", JSON.stringify(user));
+//   alert("Signup successful!");
+//   showLogin();
+// }
+
+// function login() {
+//   let email = document.getElementById("loginEmail").value;
+//   let password = document.getElementById("loginPassword").value;
+
+//   let storedUser = JSON.parse(localStorage.getItem("userData"));
+
+//   if (!storedUser) {
+//     alert("No user found. Please sign up first.");
+//     return;
+//   }
+
+//   if (email === storedUser.email && password === storedUser.password) {
+//     alert("Login successful!");
+//   } else {
+//     alert("Invalid email or password");
+//   }
+// }
+// 
+
+// 
+// let expenseForm = document.getElementById("expenseForm");
+// let expenseList = document.getElementById("expenseList");
+// let balance = document.getElementById("balance");
+
+// let expenses = JSON.parse(localStorage.getItem("expenses")) || [];
+
+// expenseForm.addEventListener("submit", addExpense);
+
+// function addExpense(e) {
+//   e.preventDefault();
+
+//   let title = document.getElementById("title").value;
+//   let amount = document.getElementById("amount").value;
+
+//   if (title === "" || amount === "") {
+//     alert("Please fill all fields");
+//     return;
+//   }
+
+//   let expense = {
+//     id: Date.now(),
+//     title,
+//     amount: Number(amount)
+//   };
+
+//   expenses.push(expense);
+//   localStorage.setItem("expenses", JSON.stringify(expenses));
+
+//   console.log("Expense Added:", expense);
+
+//   expenseForm.reset();
+//   renderExpenses();
+// }
+
+// function renderExpenses() {
+//   expenseList.innerHTML = "";
+//   let total = 0;
+
+//   expenses.forEach(exp => {
+//     total += exp.amount;
+
+//     let li = document.createElement("li");
+//     li.innerHTML = `
+//       ${exp.title} - ${exp.amount}
+//       <span class="delete" onclick="deleteExpense(${exp.id})">❌</span>
+//     `;
+//     expenseList.appendChild(li);
+//   });
+
+//   balance.innerText = total;
+// }
+
+// function deleteExpense(id) {
+//   expenses = expenses.filter(exp => exp.id !== id);
+//   localStorage.setItem("expenses", JSON.stringify(expenses));
+//   renderExpenses();
+// }
+
+// renderExpenses();
+
+
+// 
+// 
+let form = document.getElementById("form");
+let list = document.getElementById("list");
+
+let incomeEl = document.getElementById("income");
+let expenseEl = document.getElementById("expense");
+let balanceEl = document.getElementById("balance");
+
+let transactions = JSON.parse(localStorage.getItem("transactions")) || [];
+
+form.addEventListener("submit", addTransaction);
+
+function addTransaction(e) {
+  e.preventDefault();
+
+  let title = document.getElementById("title").value;
+  let amount = document.getElementById("amount").value;
+  let type = document.getElementById("type").value;
+  let category = document.getElementById("category").value;
+
+  if (title === "" || amount === "") {
+    alert("Please fill all fields");
+    return;
+  }
+
+  let transaction = {
+    id: Date.now(),
+    title,
+    amount: Number(amount),
+    type,
+    category
+  };
+
+  transactions.push(transaction);
+  localStorage.setItem("transactions", JSON.stringify(transactions));
+
+  console.log("Transaction:", transaction);
+
+  form.reset();
+  render();
+}
+
+function render() {
+  list.innerHTML = "";
+
+  let income = 0;
+  let expense = 0;
+
+  transactions.forEach(t => {
+    if (t.type === "income") {
+      income += t.amount;
+    } else {
+      expense += t.amount;
+    }
+
+    let li = document.createElement("li");
+    li.classList.add(t.type);
+    li.innerHTML = `
+      ${t.title} (${t.category}) - ${t.amount}
+      <span class="delete" onclick="remove(${t.id})">❌</span>
+    `;
+    list.appendChild(li);
+  });
+
+  incomeEl.innerText = income;
+  expenseEl.innerText = expense;
+  balanceEl.innerText = income - expense;
+}
+
+function remove(id) {
+  transactions = transactions.filter(t => t.id !== id);
+  localStorage.setItem("transactions", JSON.stringify(transactions));
+  render();
+}
+
+render();
 

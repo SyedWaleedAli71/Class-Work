@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS-Practice</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>JS-Practice</h1>
+    <!-- <h1>JS-Practice</h1> -->
     <!-- FUNCTION -->
      <!-- Q.1 -->
 <!-- <button onclick="zee()">Hello</button> -->
@@ -119,7 +120,67 @@ Product quantity :<input type="text" id="quantity">
 <input type="text" id="userAge" placeholder="Enter Your Age.."> <br>
 <button onclick="submit()">Submit</button> -->
 
-<!--  -->
+<!-- 7 FEB 2026 -->
+<!-- <div class="container">
+    <h2 id="formTitle">Login</h2> -->
+
+    <!-- SIGNUP -->
+    <!-- <div id="signupBox" class="form-box hidden">
+      <input type="text" id="signupName" placeholder="Full Name">
+      <input type="email" id="signupEmail" placeholder="Email">
+      <input type="password" id="signupPassword" placeholder="Password">
+      <button onclick="signup()">Sign Up</button>
+      <p>Already have an account? 
+        <span onclick="showLogin()">Login</span>
+      </p>
+    </div> -->
+
+    <!-- LOGIN -->
+    <!-- <div id="loginBox" class="form-box">
+      <input type="email" id="loginEmail" placeholder="Email">
+      <input type="password" id="loginPassword" placeholder="Password">
+      <button onclick="login()">Login</button>
+      <p>Don’t have an account? 
+        <span onclick="showSignup()">Sign Up</span>
+      </p>
+    </div>
+  </div> -->
+
+  <!--          -->
+  <div class="container">
+    <h2>Expense Tracker</h2>
+
+    <div class="summary">
+      <p>Income: <span id="income">0</span></p>
+      <p>Expense: <span id="expense">0</span></p>
+      <h3>Balance: <span id="balance">0</span></h3>
+    </div>
+
+    <form id="form">
+      <input type="text" id="title" placeholder="Title">
+      <input type="number" id="amount" placeholder="Amount">
+
+      <select id="type">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+      </select>
+
+      <select id="category">
+        <option>Food</option>
+        <option>Travel</option>
+        <option>Bills</option>
+        <option>Shopping</option>
+        <option>Other</option>
+      </select>
+
+      <button>Add</button>
+    </form>
+
+    <ul id="list"></ul>
+  </div>
+
+
+
 
 
 
